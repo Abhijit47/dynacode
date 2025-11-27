@@ -2,7 +2,7 @@ import AboutSection from '../../Components/About/about';
 import AchievementSection from '../../Components/Achievement';
 import BannerInnerSection from '../../Components/Banner/inner';
 import CtaSection from '../../Components/CallToAction';
-import WhyChooseUsSection from '../../Components/Chooseus';
+import WhyChooseUsSection from '../../Components/ChooseUs';
 import HeadTitle from '../../Components/Head/HeadTitle';
 import PartnersipSection from '../../Components/Partnership';
 import ProcessSection from '../../Components/ProcessStep';
