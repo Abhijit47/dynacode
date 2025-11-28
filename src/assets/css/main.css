@@ -61,13 +61,14 @@ Table of Contents
 /* 02. Global Setting Styles */
 
 /*Teal 200 oklch(91% 0.096 180.426)*/
+/*Teal 200 oklch(77.7% 0.152 181.912)*/
 
 :root {
   --primary: #121212;
   --secondary: #fcfcfc;
   --text-color: #dafaf4;
   /* --accent-color: #11e44f; */
-  --accent-color: oklch(91% 0.096 180.426);
+  --accent-color: oklch(77.7% 0.152 181.912);
   --accent-color-2: #313131;
   /* --accent-color-3: #8affac; */
   --accent-color-3: oklch(95.3% 0.051 180.801);
