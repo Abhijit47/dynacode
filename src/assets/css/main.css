@@ -2713,6 +2713,15 @@ textarea.error-border {
   line-height: 1.2em;
 }
 
+.text-coming-soon {
+  font-size: 3rem;
+  text-align: 'center';
+  font-family: var(--font-family-1);
+  color: var(--accent-color);
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
 /* 38. Custom Spacing */
 
 /* 38.1. Flex spacing (gap) */
