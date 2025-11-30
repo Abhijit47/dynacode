@@ -14,7 +14,7 @@ const PortfolioDetailSection = () => {
               </div>
               <div className='image-container'>
                 <img
-                  src='/assets/images/dummy-img-600x800.jpg'
+                  src='/assets/images/business-working-desk-with-tablet-showing-search-e-2023-11-27-05-34-25-utc_result.webp'
                   alt='Portfolio Image'
                   className='img-fluid'
                 />
@@ -119,7 +119,7 @@ const PortfolioDetailSection = () => {
                 <div className='col'>
                   <div className='image-container'>
                     <img
-                      src='/assets/images/dummy-img-600x400.jpg'
+                      src='/assets/images/teamwork-together-professional-occupation-concept-2023-11-27-05-16-00-utc_result-2048x1451.webp'
                       alt='Portfolio Detail Img'
                       className='img-fluid'
                     />

@@ -1,7 +1,8 @@
 export const portfoliodata = [
   {
     id: 1,
-    image: '/assets/images/dummy-img-600x800.jpg',
+    image:
+      '/assets/images/business-working-desk-with-tablet-showing-search-e-2023-11-27-05-34-25-utc_result.webp',
     logo: '/assets/images/partner-4-65f90f1a4e273.webp',
     category: 'On-Page SEO',
     title: 'Visibility Boost',
@@ -12,7 +13,8 @@ export const portfoliodata = [
   },
   {
     id: 2,
-    image: '/assets/images/dummy-img-600x800.jpg',
+    image:
+      '/assets/images/young-woman-typing-on-keyboard-at-desk-2023-11-27-05-23-33-utc_result_11zon.webp',
     logo: '/assets/images/partner-5-65f90f1ae5cd3.webp',
     category: 'Off-Page SEO',
     title: 'Traffic Surge',
@@ -23,7 +25,8 @@ export const portfoliodata = [
   },
   {
     id: 3,
-    image: '/assets/images/dummy-img-600x800.jpg',
+    image:
+      '/assets/images/office-workplace-table-with-reports-2023-11-27-05-06-36-utc_result.webp',
     logo: '/assets/images/partner-6-65f90f1b3c463.webp',
     category: 'Analytics and Reporting',
     title: 'Conversion Accelerator',
@@ -34,7 +37,8 @@ export const portfoliodata = [
   },
   {
     id: 4,
-    image: '/assets/images/dummy-img-600x800.jpg',
+    image:
+      '/assets/images/king-chess-game-chessboard-defeat-winner-2023-11-27-04-55-24-utc_result.webp',
     logo: '/assets/images/partner-7-65f90f1bc7da0.webp',
     category: 'On-Page SEO',
     title: 'Keyword Conquest',
@@ -45,7 +49,8 @@ export const portfoliodata = [
   },
   {
     id: 5,
-    image: '/assets/images/dummy-img-600x800.jpg',
+    image:
+      '/assets/images/office-supplies-glasses-and-black-notepad-on-wood-2023-11-27-04-51-11-utc_result.webp',
     logo: '/assets/images/partner-8-65f90f1847992.webp',
     category: 'Analylics and Reporting',
     title: 'Audience Insights',
@@ -56,7 +61,8 @@ export const portfoliodata = [
   },
   {
     id: 6,
-    image: '/assets/images/dummy-img-600x800.jpg',
+    image:
+      '/assets/images/african-american-man-at-home-on-phone-and-working-2023-11-27-05-04-09-utc_result.webp',
     logo: '/assets/images/partner-9-65f90f351af88.webp',
     category: 'Content Marketing',
     title: 'PPC Advertising',

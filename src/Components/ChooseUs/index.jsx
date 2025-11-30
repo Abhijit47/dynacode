@@ -11,7 +11,7 @@ const WhyChooseUsSection = () => {
             <div className='whychooseus-image'>
               <div className='image-container'>
                 <img
-                  src='./assets/images/dummy-img-600x400.jpg'
+                  src='./assets/images/business-people-meeting-conference-corporate-conce-2023-11-27-05-22-54-utc_result_11zon.webp'
                   alt='Why Choose Us'
                   className='img-fluid animate-box animated animate__animated'
                   data-animate='animate__fadeInLeft'

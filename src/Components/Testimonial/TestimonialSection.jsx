@@ -34,7 +34,7 @@ const TestimonialSection = () => {
               <div className='testimonial-image-wrapper'>
                 <div className='image-container'>
                   <img
-                    src='/assets/images/dummy-img-600x400.jpg'
+                    src='/assets/images/diverse-team-of-professionals-collaborating-on-a-p-2024-07-12-21-20-39-utc_result.webp'
                     alt='Testimonial Detail'
                     className='img-fluid animate-box animated animate__animated'
                     data-animate='animate__fadeInLeft'

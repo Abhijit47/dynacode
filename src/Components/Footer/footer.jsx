@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import NewsletterForm from '../Form/NewsletterForm';
 
 const Footer = () => {
@@ -10,11 +11,20 @@ const Footer = () => {
             <div className='footer-content-container'>
               <div className='footer-info-container'>
                 <div className='footer-info'>
-                  <img
-                    src='/assets/images/logo.webp'
-                    alt='Footer Logo'
-                    className='logo'
-                  />
+                  <Link to='/' className={'w-100 h-25 ratio ratio-16x9'}>
+                    <img
+                      src='/pre-logo-tr.png'
+                      alt='Footer Logo'
+                      className='logo object-fit-cover w-100 h-100'
+                      width={100}
+                      height={100}
+                      style={{
+                        maxWidth: '100%',
+                        width: 'auto',
+                        height: '3rem',
+                      }}
+                    />
+                  </Link>
                   <p className='accent-color-2'>
                     Quam lacus suspendisse faucibus interdum posuere lorem ipsum
                     dolor sit. Vel quam elementum pulvinar etiam.
@@ -27,16 +37,20 @@ const Footer = () => {
                       </div>
                     </li>
                     <li>
-                      <div className='d-flex flex-row align-items-center gspace-2 secondary-accent'>
+                      <Link
+                        to='mailto:dynacodeweb@gmail.com'
+                        className='d-flex flex-row align-items-center gspace-2 secondary-accent'>
                         <i className='fa-solid fa-envelope-open-text'></i>
-                        <span>aspire@dummy.com</span>
-                      </div>
+                        <span>dynacodeweb@gmail.com</span>
+                      </Link>
                     </li>
                     <li>
-                      <div className='d-flex flex-row align-items-center gspace-2 secondary-accent'>
+                      <Link
+                        to='tel:+123 123 123'
+                        className='d-flex flex-row align-items-center gspace-2 secondary-accent'>
                         <i className='fa-solid fa-phone'></i>
                         <span>+123 123 123</span>
-                      </div>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -44,16 +58,16 @@ const Footer = () => {
                   <h4 className='accent-color'>Quick Links</h4>
                   <ul className='footer-list'>
                     <li>
-                      <a href='/about'>About</a>
+                      <Link to='/about'>About</Link>
                     </li>
                     <li>
-                      <a href='/contact'>Contact</a>
+                      <Link to='/contact'>Contact</Link>
                     </li>
                     <li>
-                      <a href='/team'>Team</a>
+                      <Link to='/team'>Team</Link>
                     </li>
                     <li>
-                      <a href='/faq'>FAQs</a>
+                      <Link to='/faq'>FAQs</Link>
                     </li>
                   </ul>
                 </div>
@@ -61,22 +75,22 @@ const Footer = () => {
                   <h4 className='accent-color'>Services</h4>
                   <ul className='footer-list'>
                     <li>
-                      <a href='/services'>On-Page SEO</a>
+                      <Link to='/services'>On-Page SEO</Link>
                     </li>
                     <li>
-                      <a href='/services'>Content Marketing</a>
+                      <Link to='/services'>Content Marketing</Link>
                     </li>
                     <li>
-                      <a href='/services'>Off-Page SEO</a>
+                      <Link to='/services'>Off-Page SEO</Link>
                     </li>
                     <li>
-                      <a href='/services'>Social Media Marketing</a>
+                      <Link to='/services'>Social Media Marketing</Link>
                     </li>
                     <li>
-                      <a href='/services'>Analytics & Reporting</a>
+                      <Link to='/services'>Analytics & Reporting</Link>
                     </li>
                     <li>
-                      <a href='/services'>Influencer Marketing</a>
+                      <Link to='/services'>Influencer Marketing</Link>
                     </li>
                   </ul>
                 </div>
@@ -91,38 +105,39 @@ const Footer = () => {
                     <p className='accent-color-2'>Mon to Fri, 09:00 - 17:00</p>
                   </div>
                   <div>
-                    <a href='/contact' className='btn btn-accent'>
+                    <Link to='/contact' className='btn btn-accent'>
                       Contact Us
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
             <div className='copyright-container'>
               <span className='copyright-text'>
-                Aspire © 2025 All Rights Reserved by FoxCreation
+                DynaCode © {new Date().getFullYear()} All Rights Reserved by
+                dynacode
               </span>
               <div className='social-footer'>
-                <a href='#' className='social-item accent-color'>
+                <Link to='#' className='social-item accent-color'>
                   <span className={'visually-hidden'}>fb</span>
                   <i className='fa-brands fa-facebook-f'></i>
-                </a>
-                <a href='#' className='social-item accent-color'>
+                </Link>
+                <Link to='#' className='social-item accent-color'>
                   <span className={'visually-hidden'}>twitter</span>
                   <i className='fa-brands fa-x-twitter'></i>
-                </a>
-                <a href='#' className='social-item accent-color'>
+                </Link>
+                <Link to='#' className='social-item accent-color'>
                   <span className={'visually-hidden'}>instagram</span>
                   <i className='fa-brands fa-instagram'></i>
-                </a>
-                <a href='#' className='social-item accent-color'>
+                </Link>
+                <Link to='#' className='social-item accent-color'>
                   <span className={'visually-hidden'}>pinterest</span>
                   <i className='fa-brands fa-pinterest'></i>
-                </a>
-                <a href='#' className='social-item accent-color'>
+                </Link>
+                <Link to='#' className='social-item accent-color'>
                   <span className={'visually-hidden'}>youtube</span>
                   <i className='fa-brands fa-youtube'></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

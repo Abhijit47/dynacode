@@ -28,7 +28,7 @@ const SinglePostSection = () => {
 
           <div className='image-container'>
             <img
-              src='/assets/images/dummy-img-600x400.jpg'
+              src='/assets/images/king-chess-game-chessboard-defeat-winner-2023-11-27-04-55-24-utc_result.webp'
               alt='Post Banner'
               className='post-detail-img'
             />
@@ -59,7 +59,7 @@ const SinglePostSection = () => {
                 <div className='col'>
                   <div className='image-container'>
                     <img
-                      src='/assets/images/dummy-img-600x400.jpg'
+                      src='/assets/images/notes-stationery-keyboard-and-glasses-on-blue-ba-2023-12-22-22-54-04-utc_result.webp'
                       alt='Post Image'
                       className='img-fluid'
                     />

@@ -1,3 +1,4 @@
+import { A11y, Autoplay, FreeMode } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { partnershipdata } from '../../Data/Partner';
 
@@ -9,8 +10,13 @@ const PartnersipSection = () => {
           <div className='overflow-hidden'>
             <Swiper
               autoplay={{
-                delay: 2000,
+                // delay: 2500,
+                disableOnInteraction: false,
+                waitForTransition: true,
+                pauseOnMouseEnter: true,
               }}
+              freeMode={true}
+              modules={[A11y, Autoplay, FreeMode]}
               slidesPerView={5}
               spaceBetween={20}
               loop={true}

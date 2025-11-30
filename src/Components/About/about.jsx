@@ -2,6 +2,7 @@ import useAnimateOnScroll from '../Hooks/useAnimateOnScroll';
 
 const AboutSection = () => {
   useAnimateOnScroll();
+
   return (
     <>
       <div className='section'>
@@ -33,7 +34,7 @@ const AboutSection = () => {
               <div className='about-image-wrapper'>
                 <div className='image-container'>
                   <img
-                    src='/assets/images/dummy-img-600x400.jpg'
+                    src='/assets/images/team-of-young-successful-designers-gathered-by-wor-2023-11-27-04-57-08-utc_result.webp'
                     alt='About Image'
                     className='img-fluid animate-box animated animate__animated'
                     data-animate='animate__fadeInRight'

@@ -12,7 +12,10 @@ import TestimonialSection from '../../Components/Testimonial/TestimonialSection'
 const AboutPage = () => {
   return (
     <>
-      <HeadTitle title='About Us - Aspire - SEO & Digital Marketing Agency' />
+      <HeadTitle
+        title='About Us - DynaCode - Web Development | SEO | Digital Marketing Agency | Graphic
+      Design'
+      />
       <BannerInnerSection title='About Us' currentPage='About Us' />
       <PartnersipSection />
       <AboutSection />

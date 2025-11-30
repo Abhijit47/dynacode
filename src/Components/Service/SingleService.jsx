@@ -10,7 +10,7 @@ const SingleServiceSection = () => {
             <div className='service-details'>
               <div className='image-container'>
                 <img
-                  src='/assets/images/dummy-img-600x400.jpg'
+                  src='/assets/images/notes-stationery-keyboard-and-glasses-on-blue-ba-2023-12-22-22-54-04-utc_result.webp'
                   alt='Service Overview'
                   className='post-detail-img'
                 />
@@ -40,7 +40,7 @@ const SingleServiceSection = () => {
                 <div className='col'>
                   <div className='image-container'>
                     <img
-                      src='/assets/images/dummy-img-600x400.jpg'
+                      src='/assets/images/teamwork-together-professional-occupation-concept-2023-11-27-05-16-00-utc_result-2048x1451.webp'
                       alt='Teamwork'
                       className='img-fluid'
                     />

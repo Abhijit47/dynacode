@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { BannerTag } from '../../Data/BannerTag';
 import useAnimateOnScroll from '../Hooks/useAnimateOnScroll';
 import VideoButton from '../Video/VideoButton';
@@ -19,25 +20,25 @@ const BannerHome = () => {
               <div className='banner-client-rating'>
                 <div>
                   <img
-                    src='/assets/images/dummy-img-400x400.jpg'
+                    src='/assets/images/Team1.jpg'
                     alt='client-1'
                     className='banner-client-person animate-box animated animate__animated'
                     data-animate='animate__fadeIn'
                   />
                   <img
-                    src='/assets/images/dummy-img-400x400.jpg'
+                    src='/assets/images/Team2.jpg'
                     alt='client-2'
                     className='banner-client-person animate-box animated animate__animated'
                     data-animate='animate__fadeIn'
                   />
                   <img
-                    src='/assets/images/dummy-img-400x400.jpg'
+                    src='/assets/images/Team3.jpg'
                     alt='client-3'
                     className='banner-client-person animate-box animated animate__animated'
                     data-animate='animate__fadeIn'
                   />
                   <img
-                    src='/assets/images/dummy-img-400x400.jpg'
+                    src='/assets/images/Team4.jpg'
                     alt='client-4'
                     className='banner-client-person animate-box animated animate__animated'
                     data-animate='animate__fadeIn'
@@ -69,9 +70,9 @@ const BannerHome = () => {
               </div>
               <div className='d-flex flex-wrap d-flex flex-wrap justify-content-between align-items-end z-2'>
                 <div>
-                  <a href='./portfolio' className='btn btn-secondary-accent'>
+                  <Link to='./portfolio' className='btn btn-secondary-accent'>
                     View Portfolio
-                  </a>
+                  </Link>
                 </div>
 
                 <VideoButton videoUrl='https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1' />

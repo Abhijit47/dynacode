@@ -1,7 +1,7 @@
 export const testimonialdata = [
   {
     id: 1,
-    image: '/assets/images/dummy-img-400x400.jpg',
+    image: '/assets/images/Team1.jpg',
     name: 'Jhon Doe',
     designation: 'Client',
     content:
@@ -11,7 +11,7 @@ export const testimonialdata = [
   },
   {
     id: 2,
-    image: '/assets/images/dummy-img-400x400.jpg',
+    image: '/assets/images/Team2.jpg',
     name: 'Sarah Smith',
     designation: 'Client',
     content:
@@ -21,7 +21,7 @@ export const testimonialdata = [
   },
   {
     id: 3,
-    image: '/assets/images/dummy-img-400x400.jpg',
+    image: '/assets/images/Team3.jpg',
     name: 'Peter Walk',
     designation: 'Client',
     content:
@@ -31,7 +31,7 @@ export const testimonialdata = [
   },
   {
     id: 4,
-    image: '/assets/images/dummy-img-400x400.jpg',
+    image: '/assets/images/Team4.jpg',
     name: 'Joe Bloggs',
     designation: 'Client',
     content:
@@ -41,7 +41,7 @@ export const testimonialdata = [
   },
   {
     id: 5,
-    image: '/assets/images/dummy-img-400x400.jpg',
+    image: '/assets/images/Team5.webp',
     name: 'David Willson',
     designation: 'Client',
     content:
@@ -51,7 +51,7 @@ export const testimonialdata = [
   },
   {
     id: 6,
-    image: '/assets/images/dummy-img-400x400.jpg',
+    image: '/assets/images/Team7.webp',
     name: 'Marry Adams',
     designation: 'Client',
     content:

@@ -1,7 +1,7 @@
 export const teamdata = [
   {
     id: 1,
-    image: '/assets/images/dummy-img-600x600.jpg',
+    image: '/assets/images/Team1.jpg',
     name: 'Jhon Doe',
     designation: 'Ceo & Founder',
     linkedin: 'https://www.linkedin.com/',
@@ -10,7 +10,7 @@ export const teamdata = [
   },
   {
     id: 2,
-    image: '/assets/images/dummy-img-600x600.jpg',
+    image: '/assets/images/Team2.jpg',
     name: 'Sarah Jane',
     designation: 'Marketing',
     linkedin: 'https://www.linkedin.com/',
@@ -19,7 +19,7 @@ export const teamdata = [
   },
   {
     id: 3,
-    image: '/assets/images/dummy-img-600x600.jpg',
+    image: '/assets/images/Team3.jpg',
     name: 'Marry Adams',
     designation: 'Designer',
     linkedin: 'https://www.linkedin.com/',
@@ -28,7 +28,7 @@ export const teamdata = [
   },
   {
     id: 4,
-    image: '/assets/images/dummy-img-600x600.jpg',
+    image: '/assets/images/Team4.jpg',
     name: 'Peter Willson',
     designation: 'Co-Founder',
     linkedin: 'https://www.linkedin.com/',
@@ -37,7 +37,7 @@ export const teamdata = [
   },
   {
     id: 5,
-    image: '/assets/images/dummy-img-600x600.jpg',
+    image: '/assets/images/Team8.webp',
     name: 'Jessica Gillbert',
     designation: 'Bussiness Manager',
     linkedin: 'https://www.linkedin.com/',
@@ -46,7 +46,7 @@ export const teamdata = [
   },
   {
     id: 6,
-    image: '/assets/images/dummy-img-600x600.jpg',
+    image: '/assets/images/Team7.webp',
     name: 'William',
     designation: 'Bussiness Manager',
     linkedin: 'https://www.linkedin.com/',
@@ -55,7 +55,7 @@ export const teamdata = [
   },
   {
     id: 7,
-    image: '/assets/images/dummy-img-600x600.jpg',
+    image: '/assets/images/Team6.webp',
     name: 'Katy Wayne',
     designation: 'Marketing',
     linkedin: 'https://www.linkedin.com/',
@@ -64,7 +64,7 @@ export const teamdata = [
   },
   {
     id: 8,
-    image: '/assets/images/dummy-img-600x600.jpg',
+    image: '/assets/images/Team5.webp',
     name: 'Bruce Parker',
     designation: 'Co-Founder',
     linkedin: 'https://www.linkedin.com/',

@@ -51,12 +51,13 @@ Table of Contents
 
 /* 01. Import Vendor */
 
-@import url('/assets/css/vendor/Red-Hat-Text-font-family.css');
-@import url('/assets/css/vendor/Content-font-family.css');
-@import url('/assets/css/vendor/fontawesome.css');
-@import url('/assets/css/vendor/brands.css');
-@import url('/assets/css/vendor/regular.css');
-@import url('/assets/css/vendor/solid.css');
+@import url('./vendor/Red-Hat-Text-font-family.css');
+@import url('./vendor/Red-Hat-Text-font-family.css');
+@import url('./vendor/Content-font-family.css');
+@import url('./vendor/fontawesome.css');
+@import url('./vendor/brands.css');
+@import url('./vendor/regular.css');
+@import url('./vendor/solid.css');
 
 /* 02. Global Setting Styles */
 
@@ -846,7 +847,7 @@ textarea.error-border {
 
 .card-service.card-service--highlight {
   background-color: var(--accent-color-4);
-  background-image: url('/assets/images/dummy-img-600x600.jpg');
+  background-image: url('/assets/images/06_result.webp');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1094,7 +1095,7 @@ textarea.error-border {
 /* 13.7. Client Rating Card */
 
 .client-rating-card {
-  background-image: url('/assets/images/dummy-img-600x600.jpg');
+  background-image: url('/assets/images/06_result.webp');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1241,7 +1242,7 @@ textarea.error-border {
 /* 15. Banner Styles */
 
 .banner-home {
-  background-image: url('/assets/images/dummy-img-1920x900.jpg');
+  background-image: url('/assets/images/orig-20_result.webp');
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
@@ -1269,7 +1270,7 @@ textarea.error-border {
 }
 
 .banner-inner {
-  background-image: url('/assets/images/dummy-img-1920x900.jpg');
+  background-image: url('/assets/images/orig-20_result.webp');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1381,7 +1382,7 @@ textarea.error-border {
 }
 
 .cta-banner {
-  background-image: url('/assets/images/dummy-img-1920x900.jpg');
+  background-image: url('/assets/images/orig-16_result_11zon.webp');
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
@@ -1447,7 +1448,7 @@ textarea.error-border {
 }
 
 .newsletter-bg {
-  background-image: url('/assets/images/dummy-img-1920x900.jpg');
+  background-image: url('/assets/images/orig-19_result.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1793,7 +1794,7 @@ textarea.error-border {
 .price-container {
   position: relative;
   overflow: hidden;
-  background-image: url('/assets/images/dummy-img-1920x300.jpg');
+  background-image: url('/assets/images/orig-20_result.webp');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -1896,7 +1897,7 @@ textarea.error-border {
 }
 
 .testimonial-rating {
-  background-image: url('/assets/images/dummy-img-600x600.jpg');
+  background-image: url('/assets/images/06_result.webp');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2133,7 +2134,7 @@ textarea.error-border {
 /* 28. About Styles */
 
 .about-traffic-card {
-  background-image: url('/assets/images/dummy-img-600x600.jpg');
+  background-image: url('/assets/images/06_result.webp');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2280,7 +2281,7 @@ textarea.error-border {
 .counter-container {
   position: relative;
   padding: 2em 2em 2em 2em;
-  background-image: url('/assets/images/dummy-img-1920x900.jpg');
+  background-image: url('/assets/images/orig-19_result.webp');
   border-radius: var(--global-border-radius);
   z-index: 1;
   overflow: hidden;
