@@ -14,7 +14,18 @@ const Navbar = () => {
         <nav className='navbar navbar-expand-lg'>
           <div className='container-fluid flex-nowrap'>
             <NavLink className='navbar-brand' to='/'>
-              <img src='/assets/images/logo.webp' className='logo' alt='Logo' />
+              <img
+                src='/pre-logo-tr.png'
+                className='logo object-fit-cover'
+                alt='Logo'
+                width={100}
+                height={100}
+                style={{
+                  maxWidth: '100%',
+                  width: 'auto',
+                  height: '2rem',
+                }}
+              />
             </NavLink>
 
             <div className='nav-link-container'>
