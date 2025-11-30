@@ -11,10 +11,10 @@ const isDev = import.meta.env.DEV;
 const App = () => {
   return (
     <Router>
-      {!isDev ? <Navbar /> : null}
-      {!isDev ? <Sidebar /> : null}
+      {isDev ? <Navbar /> : null}
+      {isDev ? <Sidebar /> : null}
 
-      {!isDev ? (
+      {isDev ? (
         <ModalVideoProvider>
           <AppRouters />
         </ModalVideoProvider>
@@ -22,7 +22,7 @@ const App = () => {
         <ComingSoon />
       )}
 
-      {!isDev ? <Footer /> : null}
+      {isDev ? <Footer /> : null}
     </Router>
   );
 };
